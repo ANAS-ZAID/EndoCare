@@ -1,0 +1,67 @@
+main{
+ background-color: #d3d3d3;
+    padding: 80px;
+    padding-bottom: 1px;
+  margin:100px auto;
+  border-radius: 10px;
+  margin-top: 100px;
+  width:560px ;
+ 
+  box-shadow: 5px 5px 10px #131832;
+}
+.doctor{
+
+    padding: 40px;
+     background-color: #e0e0e0;
+    /* border: 2px solid black; */
+    color:black ;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #131832;
+
+    background-image: linear-gradient(to top, #131832 ,  #405c85);
+margin-bottom: 150px;
+
+}
+.inforDoctor  h1{
+    color:#e0e0e0;
+    margin: auto;
+    text-align: center;
+}
+.inforDoctor  p{
+    color:#d3d3d3;
+    
+}
+
+.inforDoctor{
+    
+    width: 270px;
+    /* height: 100px; */
+    /* border: 2px solid black;  */
+    margin: auto; 
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #131832;
+    background-color: #405c85;
+    background-image: linear-gradient(to left, #1a2144 , #1d3557);
+
+}
+.imgDoctor{
+    width: 240px;
+    height: 240px;
+    /* border: 1px solid #131832;  */
+    margin: auto;
+    border-radius: 150px;
+    overflow:hidden ;
+    box-shadow: 5px 5px 10px #131832;
+    
+}
+img{
+
+    width: 230px;
+    height: 240px;
+    /* border: 2px solid black;*/
+    border-radius: 100px; 
+  
+
+}

@@ -1,0 +1,79 @@
+.content_title {
+  border: 2px solid#1D3557;
+  font-size: 30px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #2b4c7b;
+  color: #e0e0e0;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+}
+
+main {
+  padding: 40px;
+  background-color: #e0e0e0;
+  margin: 100px;
+
+  box-shadow: 5px 5px 10px black;
+}
+summary {
+  list-style: inside disclosure-closed;
+  color: #1d3557;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+details h2 {
+  color: #1d3557;
+}
+.list_servic li {
+  color: #181539;
+  font-size: 25px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.main_links:hover {
+  background-color: #2b4c7b;
+}
+.buttons_links {
+  width: 150px;
+  padding: 10px; 
+   margin: 10px 30px;
+  border: 2px solid #33517b;
+  background-color: #2b4c7b;
+  border-radius: 5px;
+  font-size: 23px;
+
+  box-shadow: 5px 5px 15px black;
+}
+.buttons_links:hover{
+  transform: scale(1.1);
+  transition: 0.5;
+  cursor:pointer ;
+
+
+}
+table {
+  width: 50%;
+  border: 1px solid #1D3557;
+  text-align: center;
+
+  box-shadow: 0px 0px 10px black;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  margin: 25px;
+
+}
+
+
+
+table th {
+  /* border: 1px solid black; */
+  padding: 10px;
+  background-color: #1D3557;
+  font-weight: bold;
+  font-size: 25px;
+}

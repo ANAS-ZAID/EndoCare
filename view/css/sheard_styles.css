@@ -1,0 +1,103 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+  
+    color: #e0e0e0;
+  }
+
+
+.input {
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    border-radius: 5px; /*لسحب اطار العنصر الى الداخل بمقدار معين*/
+    border: 1px solid #1d3557;
+    font-size: 20px;
+    color: #1d3557;
+  }
+  
+  .form {
+    width: 350px;
+    background-color: #e0e0e0;
+    box-shadow: 5px 5px 10px black;
+    height:350px ;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+ .label {
+    margin: auto;
+    color: #1d3557;
+    /* border: 2px solid #1D3557; */
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+
+  .body {
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #131832;
+    background-image: linear-gradient(to left, #1d3557, #131832);
+  }
+  
+
+  .button {
+  margin: auto;
+  padding: 3%;
+  width: 40%;
+  background-color: #1d3557;
+  border: 1px solid #1d3557;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.button-login-signup {
+ 
+    height: 90%;
+    position: absolute;
+    top: 10px;
+    background-image: linear-gradient(to left, #131832, #1d3557);
+    border: 1px solid #1d3557;
+    font-size: 20px;
+    animation: animation-button 7s infinite;
+  }
+
+  .hover-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 10px #131832;
+    transition: 0.5;
+  } 
+
+  
+@keyframes animation-button {
+    0% {
+      border-radius: 5px;
+      padding: 5px 20px;
+    }
+    50% {
+      border-radius: 20px;
+  
+      padding: 3px 5px;
+    
+    }
+  
+    100% {
+      border-radius: 5px;
+      padding: 5px 20px;
+    }
+  }

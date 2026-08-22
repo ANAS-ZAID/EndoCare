@@ -1,0 +1,35 @@
+
+
+  .content_title{
+
+    border:2px solid#1D3557;
+    font-size: 30px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:#2b4c7b ;
+    color:#e0e0e0;
+    box-shadow: 5px 5px 10px black;
+    text-align:center ;
+  }
+  main {
+    padding: 40px;
+    background-color: #e0e0e0;
+    margin: 100px;
+    
+    box-shadow: 5px 5px 10px black;
+  }
+
+summary {
+    list-style: none;
+  }
+  summary li {
+    list-style: inside disclosure-closed;
+  }
+  /* .list_services li{
+    color: #1D3557;
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight:bold;
+  } */
+  
